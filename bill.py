@@ -1,5 +1,5 @@
 unit=int(input("Enter the unit consumed: "))
-def Bill_Calc(unit):         
+def Bill(unit):         
     if((unit>=1)and(unit<=50)):
         print(unit*3);
     
@@ -13,5 +13,5 @@ def Bill_Calc(unit):
         print((50*3)+((100-50)*6)+((150-100)*9)+(unit-150)*12)
     else:
             print("No usage ");
-        #amount=0;
-Bill_Calc(unit)             
+      
+Bill(unit)             
