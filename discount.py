@@ -1,5 +1,5 @@
 
-amt=float(input("enter sale amount:"))
+amt=float(input("enter amount:"))
           
 if(amt>0):
     if amt<=1000:
