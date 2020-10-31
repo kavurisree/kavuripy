@@ -28,4 +28,3 @@ elif (stud_percentage<40):
   print('promoted')
 else:
   print('Fail')
-print('=======================================')
