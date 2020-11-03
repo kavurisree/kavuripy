@@ -1,0 +1,10 @@
+#insert,pop,remove,reverse
+a=[123,'xyz','pqr','abc']
+a.insert(3,99)
+print(a)
+print(a.pop())
+print(a.pop(2))
+a.remove('xyz')
+print(a)
+a.reverse()
+print(a)

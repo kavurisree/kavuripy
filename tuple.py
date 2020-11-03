@@ -1,0 +1,8 @@
+tuple1=('a','bha',98,90)
+tuple2=('kavuri',78)
+print(tuple1)
+print(tuple1[0])
+print(tuple2[1])
+print(tuple1[2:])
+print(tuple2*2)
+print(tuple1+tuple2)
