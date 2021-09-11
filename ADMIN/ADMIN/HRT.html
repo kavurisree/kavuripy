@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MAHESH BABU</title>
+        <style>
+            *{
+                user-select:none;
+                -webkit-user-select:none;
+                margin:0;
+                padding:0;
+            }
+            #myBtn {
+                position:absolute;left:18vw;top:calc(50vh - 6vw);background:rgb(255,135,185);width:12vw;height:12vw;border-radius:5vw;border:1vw solid black;font-family:monospace;font-size:2vw;font-weight:bold;display:flex;align-items:center;justify-content:center;
+            }
+            #myBtn span {
+                display:inline-block;
+            }
+            .active {
+                transform: scale(1.1, 1.1);
+            }
+            #myCnv {
+                position:absolute;left:0;top:0;width:100%;height:100%;z-index:-1;
+            }
+            #menu{
+                position:absolute;z-index:-2;
+                top:0;left:0;width:100%;height:10vw;min-height:50px;background:rgb(255,205,225);font-size:7vw;font-weight:bold;font-family:serif;display:flex;align-items:center;
+            }
+            #heartCount {
+                position:absolute;right:6%;
+            }
+            #loveStatus {
+                position:absolute;left:4%;height:20%;width:20%;background:silver;border-radius:50vw;display:flex;align-items:center;
+            }
+            #loveStatusProgress{
+                position:absolute;height:100%;width:0;background:red;border-radius:4vw;
+            }
+            #loveStatusLabel {
+                position:absolute;
+                font-size:25%;
+                left: 5%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="myBtn" onclick="addHeart()">
+            <span>HBD SSMB</span>
+        </div>
+        <div id="menu">
+            <div id="loveStatus">
+                <div id="loveStatusProgress"></div>
+                <div id="loveStatusLabel">Level 0</div>
+            </div>
+            <div id="heartCount">🌲 0</div>
+        </div>
+        <canvas id="myCnv"></canvas>
+        <script>
+            var levels = [0];
+            for(let i = 0;i<1;++i) {
+                levels.push(levels[i] + 10 + i);
+            }
+            var level=0, gameover = false;
+            var firstClick=false;
+            var btn,countElem, loveElem, levelElem;
+            var c,ctx,last;
+            var hearts=[];
+            var particles=[];
+            var count=0;
+            onload = function() {
+               countElem= document.getElementById("heartCount");
+               loveElem = document.getElementById("loveStatusProgress");
+               levelElem = document.getElementById("loveStatusLabel");
+               btn=document.getElementById("myBtn");
+                btn.onpointerdown=function(){
+                    this.classList.add("active");
+                }
+                btn.onpointerup=function(){
+                    this.classList.remove("active");
+                }
+                c=document.getElementById("myCnv");
+                
+                onresize = function() {
+                    hearts.length = 0;
+                    particles.length = 0;
+                }
+                
+                ctx=c.getContext("2d");
+                last=performance.now();
+                requestAnimationFrame(loop);
+            }
+            function loop(t){
+                var dt=(t-last)/10;
+                last=t;
+                
+                var progress=(count - levels[level]) / (levels[level + 1] - levels[level]);
+                loveElem.style.width = Math.min(progress * 100, 100) + "%";
+                if(progress >=1) {
+                    if(level < levels.length - 1) ++level;
+                    levelElem.innerHTML = "Level " + level + " / " + (levels.length - 1);
+                    explode(c.width/2, c.height * 0.05, 100);
+                    if(level == levels.length - 1) gameover = true;
+                }
+                [c.width,c.height]=[600,600/(innerWidth/innerHeight)];
+                ctx.beginPath();
+                ctx.clearRect(0,0,c.width,c.height);
+                for(let i=0;i<hearts.length;++i) {
+                    let heart=hearts[i];
+                    if((heart[1]-=heart[2]*dt)<=-20) {
+                        hearts.splice(i--,1);
+                        continue;
+                    }
+                    ctx.beginPath();
+                    ctx.textAlign="center";
+                    ctx.font="40px Arial";
+                    ctx.fillText("🌲",heart[0],heart[1]);
+                }
+                for(let i=0;i<particles.length;++i){
+                    let p = particles[i];
+                    if(p[1] > c.height + 20) {
+                        particles.splice(i--,1);
+                        continue;
+                    }
+                    p[3] += 0.2 * dt;
+                    p[2] *= p[4];
+                    p[3] *= p[4];
+                    p[0]+=p[2] * dt;
+                    p[1]+=p[3] * dt;
+                    
+                    ctx.beginPath();
+                    ctx.textAlign="center";
+                    ctx.font="30px Arial";
+                    ctx.fillText("🌲",p[0],p[1]);
+                }
+                requestAnimationFrame(loop);
+            }
+            function addHeart() {
+                if(gameover) {
+                    explode(c.width/2, c.height * 0.05, 30);
+                }
+               firstClick = true; hearts.push([Math.random()*c.width,c.height + 20, Math.random()*2+2]);
+                countElem.innerHTML = "🌲 " + (++count);
+                
+            }
+            function explode(x,y,n) {
+                for(let i=0; i<n;++i) {
+                    particles.push([x,y,Math.random()*20-10,Math.random()*-10, 0.99-Math.random()*0.04]);
+                }
+            }
+            /*setTimeout(() => {
+                let t = setInterval(() => addHeart(), 20);
+                setTimeout(() => clearInterval(t), 15000);
+            }, 3000);*/
+        </script>
+
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<div class="container">
+  <img src="C:\Users\sreess\Desktop\EXCELL\ADMIN\ADMIN\img\46.jpg" style="width:60%;margin-left: 150px; height:20%;">
+  <div class="text-block">
+    
+  </div>
+</div>
+    </body>
+</html>

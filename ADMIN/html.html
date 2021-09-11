@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  
+
+</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML TO IMAGE</title>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <script type="text/javascript">
+
+        function downloadimage() {
+            //var container = document.getElementById("image-wrap"); //specific element on page
+            var container = document.getElementById("htmltoimage");; // full page 
+            html2canvas(container, { allowTaint: true }).then(function (canvas) {
+
+                var link = document.createElement("a");
+                document.body.appendChild(link);
+                link.download = "html_image.jpg";
+                link.href = canvas.toDataURL();
+                link.target = '_blank';
+                link.click();
+            });
+        }
+<body>
+    <center>
+    <h2 style="color:green">
+        GeeksForGeeks
+    </h2>
+      
+    <h2 style="color:purple">
+        Convert div to image
+    </h2>
+      
+    <div id="html-content-holder" style="background-color: #F0F0F1; 
+                color: #00cc65; width: 500px;padding-left: 25px; 
+                padding-top: 10px;">
+          
+        <strong>
+            GeeksForGeeks
+        </strong>
+          
+        <hr/>
+          
+        
+      
+        
+    </div>
+  
+    <input id="btn-Preview-Image" type="button"
+                value="Preview" /> 
+          
+    <a id="btn-Convert-Html2Image" href="#">
+        Download
+    </a>
+  
+    <br/>
+      
+    <h3>Preview :</h3>
+      
+    <div id="previewImage"></div>
+    
+
+
+
+<body style="text-align:center">
+
+    <div id="htmltoimage">
+        
+         <div class="imgbg">
+            <img src="C:\Users\sreess\Desktop\ADMIN\page1.jpg" alt="" srcset="">
+        </div>  
+        
+       
+        <button onclick="downloadimage()" class="clickbtn">Click To Download Image</button>
+    </div>
+    </script>
+    </center>
+</body>
+  
+</html>         

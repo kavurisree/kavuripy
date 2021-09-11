@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML TO IMAGE</title>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <script type="text/javascript">
+
+        function downloadimage() {
+            //var container = document.getElementById("image-wrap"); 
+            var container = document.getElementById("htmltoimage");; 
+            html2canvas(container, { allowTaint: true }).then(function (canvas) {
+
+                var link = document.createElement("a");
+                document.body.appendChild(link);
+                link.download = "html_image.jpg";
+                link.href = canvas.toDataURL();
+                link.target = '_blank';
+                link.click();
+            });
+        }
+
+    </script>
+
+
+    <style>
+        #htmltoimage {
+            width: 65%;
+            margin: auto;
+        }
+    </style>
+
+</head>
+
+<body style="text-align:center">
+
+    <div id="htmltoimage">
+        
+         <div class="imgbg">
+            <img src="https://www.amazon.com/dp/B08LDX8VCN" alt="" srcset="">
+        </div>  
+        <br></br>
+       
+        <button onclick="downloadimage()" class="clickbtn">Click To Download Image</button>
+    </div>
+
+</body>
+
+</html>

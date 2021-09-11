@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>pageNum-1</title>
+<link rel="stylesheet" href="../css/style.css" type="text/css"/>
+</head>
+<body>
+<div class="fs">
+<div class="leftPage" id="leftPageL2">
+</div>
+<div class="txt fs2-txt1" id="p1">
+<!--a class="app-amzn-magnify" data-app-amzn-magnify='{"targetId":"fs2-txt1-magTarget", "sourceId":"fs2-1-txt", "ordinal":1}'-->
+<div id="fs2-1-txt">
+<div class="target-mag-1 stanza">Hello Genius are published by Picture Window Books – a capstone imprint</div>
+<!--div style="clear:both"/-->
+</div>
+<!--/a-->
+</div>
+<div class="txt fs2-txt2" id="p2">
+<!--a class="app-amzn-magnify" data-app-amzn-magnify='{"targetId":"fs2-txt2-magTarget", "sourceId":"fs2-2-txt", "ordinal":2}'-->
+<div id="fs2-2-txt">
+<div class="target-mag-2 stanza">151 Good Counsel Drive, P.O. Box 669, Mankato, Minnesota 56002</div>
+<!--div style="clear:both"/-->
+</div>
+<!--/a-->
+</div>
+<div class="txt fs2-txt3" id="p3">
+<!--a class="app-amzn-magnify" data-app-amzn-magnify='{"targetId":"fs2-txt3-magTarget", "sourceId":"fs2-3-txt", "ordinal":3}'-->
+<div id="fs2-3-txt">
+<div class="target-mag-3 stanza">www.capstonepub.com Copyright © 2010 by Picture Window Books. All rights reserved. No part of this publication</div>
+<!--div style="clear:both"/-->
+</div>
+<!--/a-->
+</div>
+<div class="txt fs2-txt4" id="p4">
+<!--a class="app-amzn-magnify" data-app-amzn-magnify='{"targetId":"fs2-txt4-magTarget", "sourceId":"fs2-4-txt", "ordinal":4}'-->
+<div id="fs2-4-txt">
+<div class="target-mag-4 stanza">may be reproduced in whole or in part, or stored in a retrieval system, or transmitted in any form or by any means,</div>
+<!--div style="clear:both"/-->
+</div>
+<!--/a-->
+</div>
+<div class="txt fs2-txt5" id="p5">
+<!--a class="app-amzn-magnify" data-app-amzn-magnify='{"targetId":"fs2-txt5-magTarget", "sourceId":"fs2-5-txt", "ordinal":5}'-->
+<div id="fs2-5-txt">
+<div class="target-mag-5 stanza">electronic, mechanical, photocopying, recording, or otherwise, without written permission of the publisher.<br/>ISBN 978-1-4795-5636-6 (eBook)</div>
+<!--div style="clear:both"/-->
+</div>
+<!--/a-->
+</div>
+<div class="txt fs2-txt6" id="p6">
+<!--a class="app-amzn-magnify" data-app-amzn-magnify='{"targetId":"fs2-txt6-magTarget", "sourceId":"fs2-6-txt", "ordinal":6}'-->
+<div id="fs2-6-txt">
+<div class="target-mag-6 stanza">Library of Congress Cataloging-in-Publication data is available on the Library of Congress website.</div>
+<!--div style="clear:both"/-->
+</div>
+<!--/a-->
+</div>
+<div class="txt fs2-txt7" id="p7">
+<!--a class="app-amzn-magnify" data-app-amzn-magnify='{"targetId":"fs2-txt7-magTarget", "sourceId":"fs2-7-txt", "ordinal":7}'-->
+<div id="fs2-7-txt">
+<div class="target-mag-7 stanza">Designer: Bob Lentz</div>
+<!--div style="clear:both"/-->
+</div>
+<!--/a-->
+</div>
+<div class="txt fs2-txt8" id="p8">
+<!--a class="app-amzn-magnify" data-app-amzn-magnify='{"targetId":"fs2-txt8-magTarget", "sourceId":"fs2-8-txt", "ordinal":8}'-->
+<div id="fs2-8-txt">
+<div class="target-mag-8 stanza">Creative Director: Heather Kindseth</div>
+<!--div style="clear:both"/-->
+</div>
+<!--/a-->
+</div>
+<!--<div id="fs2-txt1-magTarget" class="target-mag"/>-->
+<!--<div id="fs2-txt2-magTarget" class="target-mag"/>-->
+<!--<div id="fs2-txt3-magTarget" class="target-mag"/>-->
+<!--<div id="fs2-txt4-magTarget" class="target-mag"/>-->
+<!--<div id="fs2-txt5-magTarget" class="target-mag"/>-->
+<!--<div id="fs2-txt6-magTarget" class="target-mag"/>-->
+<!--<div id="fs2-txt7-magTarget" class="target-mag"/>-->
+<!--<div id="fs2-txt8-magTarget" class="target-mag"/>-->
+</div>
+</body>
+</html>
