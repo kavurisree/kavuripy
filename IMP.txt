@@ -1,0 +1,63 @@
+PROD_APUB/Training/6K_Launch/Source_PDF
+
+
+Process	AHT (in mins)
+Prescreening	0.48
+Conversion	2.10
+Audit	1.30
+
+
+Dazons of Dragons-24th
+Eight Days-25th(Page-13)
+Earnit-25th(Page-10)
+
+
+
+i = 20;
+if (i < 15):
+    print ("i is smaller than 15")
+    print ("True")
+else:
+    print ("i is greater than 15")
+    print ("i'm in else Block")
+print ("False")
+
+
+
+
+
+
+
+     1) Bhavya tat we see at work is the same Bhavya at home?
+
+     2) If you can choose a superpower for yourself... What would it be?
+
+     3) What is Happiness in bhavya's world?
+
+     4) how to get more money
+     
+     5) What are 3 things you are grateful for?👀
+     
+     6) 2 things that you want to bring into your life as a change and 1 suggestion for me.
+
+     7) What will you choose invisibility or mind reading?(nivetha)
+
+     8) how much you'll rate this workspace environment?
+ 
+     9) if you are given a chance to travel to future for 5 mins.. where would you go whom would you see
+
+
+
+
+
+Text.Select([Text],{"A".."z","0".."9"})
+Text.Remove([Text],{"A".."z","0".."9"})
+
+
+
+"C:\Users\sreess\Desktop\Tool\mobi_to_epub.bat" "C:\Users\sreess\Desktop\Tool\Input"
+
+
+
+
+=(SUMPRODUCT(--(UNICODE(MID(A3,ROW(INDIRECT("1:"&LEN(A3))),1))>=132))>0)
