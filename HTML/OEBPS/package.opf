@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns:xx="http://saxon.sf.net/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/metadata/dublin_core" unique-identifier="BookId" version="2.0">
+        <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <meta name="fixed-layout" content="true"/>
+        <meta name="orientation-lock" content="landscape"/>
+        <meta name="original-resolution" content="1600x1200"/>
+        <meta name="book-type" content="children"/>
+        <meta name="RegionMagnification" content="true"/>
+        <dc-metadata xmlns:dc="http://purl.org/metadata/dublin_core" xmlns:oebpackage="http://openbook.org/namespaces/oeb-package/1.0/">
+	    <dc:title>Pinkalicious: Fairy House</dc:title>
+            <dc:rights>Copyright &#x00A9; Victoria Kann</dc:rights>
+            <dc:creator opf:role="aut" opf:file-as="Victoria Kann">Victoria Kann</dc:creator>
+            <dc:publisher>HarperCollins</dc:publisher>
+            <dc:date opf:event="publication">2014</dc:date>
+            <dc:language>en</dc:language>
+          </dc-metadata>
+		  <meta name="cover" content="my-cover-image"/>		
+  </metadata>
+
+ 	<manifest>
+		<!--supplementary -->
+		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+	    <item id="css" href="stylesheet.css" media-type="text/css"/>
+		<item id="cov" href="cover.xhtml" media-type="application/xhtml+xml"/>
+		<item id="backcover" href="backcover.xhtml" media-type="application/xhtml+xml"/>
+		<item id="parent" href="parent.xhtml" media-type="application/xhtml+xml"/>
+				
+		<!--fonts-->
+       	<item id="font1" href="fonts/Times-Roman.otf" media-type="application/x-font-otf"/>
+       	<item id="font2" href="fonts/Times-Italic.otf" media-type="application/x-font-otf"/>
+			
+		 
+		<!--content-->
+		<item id="pg002" href="page002.xhtml" media-type="application/xhtml+xml"/>
+		<item id="pg004" href="page004.xhtml" media-type="application/xhtml+xml"/>
+		<item id="pg006" href="page006.xhtml" media-type="application/xhtml+xml"/>
+		<item id="pg008" href="page008.xhtml" media-type="application/xhtml+xml"/>
+		<item id="pg010" href="page010.xhtml" media-type="application/xhtml+xml"/>
+		<item id="pg012" href="page012.xhtml" media-type="application/xhtml+xml"/>
+		<item id="pg014" href="page014.xhtml" media-type="application/xhtml+xml"/>
+		<item id="pg016" href="page016.xhtml" media-type="application/xhtml+xml"/>
+		<item id="pg018" href="page018.xhtml" media-type="application/xhtml+xml"/>
+		<item id="pg020" href="page020.xhtml" media-type="application/xhtml+xml"/>
+		<item id="pg022" href="page022.xhtml" media-type="application/xhtml+xml"/>
+		<item id="pg024" href="page024.xhtml" media-type="application/xhtml+xml"/>
+		<item id="pg026" href="page026.xhtml" media-type="application/xhtml+xml"/>
+		<item id="pg028" href="page028.xhtml" media-type="application/xhtml+xml"/>
+	    <item id="pg030" href="page030.xhtml" media-type="application/xhtml+xml"/>
+		<item id="pg032" href="page032.xhtml" media-type="application/xhtml+xml"/>
+
+		<!--images-->
+		  <item id="my-cover-image" href="images/cover.jpg" media-type="image/jpeg"/>		
+		  <item id="img002" href="images/page002.jpg" media-type="image/jpeg"/>
+		  <item id="img003" href="images/page003.jpg" media-type="image/jpeg"/>
+		  <item id="img004" href="images/page004.jpg" media-type="image/jpeg"/>
+		  <item id="img005" href="images/page005.jpg" media-type="image/jpeg"/>
+		  <item id="img006" href="images/page006.jpg" media-type="image/jpeg"/>
+		  <item id="img007" href="images/page007.jpg" media-type="image/jpeg"/>
+		  <item id="img008" href="images/page008.jpg" media-type="image/jpeg"/>
+		  <item id="img009" href="images/page009.jpg" media-type="image/jpeg"/>
+		  <item id="img010" href="images/page010.jpg" media-type="image/jpeg"/>
+		  <item id="img011" href="images/page011.jpg" media-type="image/jpeg"/>
+		  <item id="img012" href="images/page012.jpg" media-type="image/jpeg"/>
+		  <item id="img013" href="images/page013.jpg" media-type="image/jpeg"/>
+		  <item id="img014" href="images/page014.jpg" media-type="image/jpeg"/>
+		  <item id="img015" href="images/page015.jpg" media-type="image/jpeg"/> 
+		  <item id="img016" href="images/page016.jpg" media-type="image/jpeg"/>
+		  <item id="img017" href="images/page017.jpg" media-type="image/jpeg"/>
+		  <item id="img018" href="images/page018.jpg" media-type="image/jpeg"/>
+		  <item id="img019" href="images/page019.jpg" media-type="image/jpeg"/>
+		  <item id="img020" href="images/page020.jpg" media-type="image/jpeg"/>
+		  <item id="img021" href="images/page021.jpg" media-type="image/jpeg"/>
+		  <item id="img022" href="images/page022.jpg" media-type="image/jpeg"/>
+		  <item id="img023" href="images/page023.jpg" media-type="image/jpeg"/>
+		  <item id="img024" href="images/page024.jpg" media-type="image/jpeg"/>
+		  <item id="img025" href="images/page025.jpg" media-type="image/jpeg"/>
+		  <item id="img026" href="images/page026.jpg" media-type="image/jpeg"/>
+		  <item id="img027" href="images/page027.jpg" media-type="image/jpeg"/>
+		  <item id="img028" href="images/page028.jpg" media-type="image/jpeg"/>
+		  <item id="img029" href="images/page029.jpg" media-type="image/jpeg"/>
+		  <item id="img030" href="images/page030.jpg" media-type="image/jpeg"/>
+		  <item id="img031" href="images/page031.jpg" media-type="image/jpeg"/>
+		  <item id="img032" href="images/page032.jpg" media-type="image/jpeg"/>
+		  <item id="img033" href="images/backcover.jpg" media-type="image/jpeg"/>
+	</manifest>
+	
+ 	<spine toc="ncx">
+		<itemref idref="cov" linear="yes"/>
+		<itemref idref="parent" />
+		<itemref idref="pg002" />
+		<itemref idref="pg004"/>
+		<itemref idref="pg006"/>
+		<itemref idref="pg008"/>
+		<itemref idref="pg010"/>
+		<itemref idref="pg012"/>
+		<itemref idref="pg014"/>
+		<itemref idref="pg016"/>
+		<itemref idref="pg018"/>
+		<itemref idref="pg020"/>
+		<itemref idref="pg022"/>
+		<itemref idref="pg024"/>
+		<itemref idref="pg026"/>
+		<itemref idref="pg028"/>
+		<itemref idref="pg030"/>
+		<itemref idref="pg032"/>
+		<itemref idref="backcover"/>
+		
+		</spine>
+	<guide>
+	    <reference type="cover" title="Cover" href="cover.xhtml"/>
+	</guide>
+
+	<!-- version 1.0 -->
+</package>
+
+
+

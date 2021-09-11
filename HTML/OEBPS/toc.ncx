@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+<head><meta name="viewport" content="width=1600, height=1200" />
+	<meta name="dtb:uid" content="urn:uuid:2f3853c0-dee2-11df-85ca-0800200c9a66"/>
+</head>
+
+<docTitle>
+	<text>Pinkalicious and the Cupcake Calamity</text>
+</docTitle>
+
+<navMap>	
+	<navPoint id="cover" playOrder="1"> <navLabel><text>Cover</text></navLabel><content src="cover.xhtml"/> </navPoint>
+	
+</navMap>
+
+</ncx>
