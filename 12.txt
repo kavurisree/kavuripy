@@ -1,0 +1,32 @@
+[August 23, 2021, 11:11 AM] N, Mohammed Faizan: "Unable to find cover page"
+"Unable to find opf file"
+Double page spread issue (Tool Issue)
+Incomplete PDF download
+PDF not generated
+Unable to extract content from .epub
+Unable to extract content from .striptool
+Cut Text
+Cut text & image
+Page Missing
+Page missing blank page appearing
+Text Alignment Issue
+Text and image overlapping Issue
+Text overflow and cut text & image
+Text overlapping
+Content Mismatch
+Cover Mismatch
+Font Issue
+Image cut issue
+Image Mismatch
+Poor Source Quality
+Text Alignment and Text overlap
+Photoshop Work Required
+Book Rejected (SOP standards not met)
+Double page spread issue (Content Issue)
+Other Language Book
+Fi and Fl Issue
+Book Failed for Version Update
+[August 23, 2021, 11:11 AM] N, Mohammed Faizan: Text Alignment and Text overlap: Loc 5,6: 
+
+
+Fi and Fl Issue: Loc 5,6

@@ -1,0 +1,19 @@
+B08NK1QX6Q
+Folder Attached Includes "Can.html"
+Can.html open with Fire Fox...Click on Download Option ..Image is Download 
+("#htmltoimage").load("page008.xhtml"); 
+
+Required xhtml Page No. has to be Mentioned at "page008.xhtml"
+
+For All Harper Publication Files and, For all OEBPS folder included same Process has to be followed
+
+1)Place "can.html" in OEBPS Folder after Extracting Epub
+2)change the Coding with Required Xhtml Page
+Ex:1)("#htmltoimage").load("page008.xhtml"); 
+   2)("#htmltoimage").load("page0016.xhtml"); 
+3)open with Fire Fox(Can.Xhtml)...Click on Download Option.
+
+
+For Web hoisting and SEO Please go on with further Process so that Google can be Equally Accessbile for this coding
+
+ 

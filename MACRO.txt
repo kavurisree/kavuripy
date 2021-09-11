@@ -1,0 +1,51 @@
+
+Please Use this Coding For Macro Process
+
+1)Function RemoveSpecChar(sInput As String) As String
+Dim sSpecChar As String
+Dim i As Long
+sSpecChar = "\/:*?™""®<>|.&@# (_+`©~);-+=^$!,'"
+For i = 1 To Len(sSpecChar)
+sInput = Replace$(sInput, Mid$(sSpecChar, i, 1), "")
+Next
+RemoveSpecChar = sInput
+End Functiona
+
+
+2)Sub RemoveNotAlphasNotNum()
+Dim Rng As Range
+Dim WorkRng As Range
+On Error Resume Next
+xTitleId = "KutoolsforExcel"
+Set WorkRng = Application.Selection
+Set WorkRng = Application.InputBox("Range", xTitleId, WorkRng.Address, Type:=8)
+For Each Rng In WorkRng
+xOut = ""
+For i = 1 To Len(Rng.Value)
+xTemp = Mid(Rng.Value, i, 1)
+If xTemp Like "[a-z.]" Or xTemp Like "[A-Z.]" Or xTemp Like "[0-9.]" Then
+xStr = xTemp
+Else
+xStr = ""
+End If
+xOut = xOut & xStr
+Next i
+Rng.Value = xOut
+Next
+End Sub
+
+
+
+
+3)Function PunctuationRemove(Txt As String) As String
+ with CreateObject("VBScript.RegExp")
+ .Pattern = "[^A-Z0-9]"
+ .IgnoreCase = True
+ .Global = True
+RemovePunctuation = .Replace(Txt, "")
+End With
+End Function
+
+
+
+
